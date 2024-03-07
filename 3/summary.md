@@ -23,3 +23,14 @@ imporoved version:
 User: I want to write the name of a friend and then click a button to send a letter
 
 way less ambiguity about the users expectations, this example might be exagerated but illustrates the issue with user stories
+
+
+ok this is way done is included
+
+User story format:
+
+    Roale Goal benefit Done Tasks Effort
+
+Requirements processs
+
+    Elicitation Analysis (collecting User stories) specification (modelling the solution/system) verification (searching for errors)
