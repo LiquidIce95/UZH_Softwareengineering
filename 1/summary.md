@@ -1,1 +1,0 @@
-basic java setup for the course

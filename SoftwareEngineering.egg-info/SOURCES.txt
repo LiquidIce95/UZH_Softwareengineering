@@ -1,0 +1,6 @@
+setup.py
+SoftwareEngineering.egg-info/PKG-INFO
+SoftwareEngineering.egg-info/SOURCES.txt
+SoftwareEngineering.egg-info/dependency_links.txt
+SoftwareEngineering.egg-info/top_level.txt
+week3/__init__.py
