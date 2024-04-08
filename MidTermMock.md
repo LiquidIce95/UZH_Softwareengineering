@@ -51,4 +51,20 @@ function signature is interface, function call is the connector
   information hiding: is a abstract concept and refers to mathematical abstraction itself, meaning that a subset of information of something is 
   ignored
 
-11. 
+11. what is the advantage of favouring immutability?
+  The user cannot change the internal representation of object and thus assumptions made (CONTRACTS) of other parts of the API are not broken, not leading to api errors. leaving objects mutable would give the user more usability but its much more difficult to work with that representation since Users might completely change it 
+
+12. you are tasked with developing an api for a car where the api provides functionality to use a car via code. provide one example of bad api design which break the principle of "do one thing"
+
+  api.engineStartAndStop(boolean: b), should be changed to 
+  api.engineStart(), api.engineStop()
+
+13. using the same context as 12, provide an example of an improvement of the principle "avoid long parameter list"
+  api.modifyEngine(float:capacity,float:combustion,string:model)
+  api.modifyEngine(Engine: engine) where Engine is a object which has the necessary attributes and the endpoint checks for those which are not the default value or null and overwrites those 
+
+13. using the same context as 12, provide an example of an improvement of the principle "avoid exceptional returns"
+
+  api.getEngine() returns null if no engine is in vehicel
+  should return an Engine object with all default values where it can be inferred that no engine must be present
+
