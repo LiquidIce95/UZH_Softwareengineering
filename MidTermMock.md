@@ -68,3 +68,46 @@ function signature is interface, function call is the connector
   api.getEngine() returns null if no engine is in vehicel
   should return an Engine object with all default values where it can be inferred that no engine must be present
 
+14. name 3 potential drawbacks when not using a specific process
+  -High cost fatigue due to frequent context switching between designing, implementing, testing, requirements ect.
+  -additinoal costs if wrong process is applied (no chnages occure but agile is choosen or waterfall is choosen but changes are frequent)
+  -organizational structure might favour specific process but team uses something that is in conflict with that.
+  -can lead to bad architecture wich might lead to high complexity of project and therefore higher costs for changes
+
+15. apart from user stories, name 4 additional constraints which might be imposed on the project
+  -hardware
+  -expertise of team
+  -organizational structure
+  -money 
+  -time for project
+
+16. name 3 differences between SCRUM and XP
+  -XP uses pair programming
+  -XP uses TDD
+  -SCRUM has daily sprint meetings
+
+17. name at least 3 principles of the agile manifesto
+  -interactions and collaboration over tools and processes
+  -working product over documentation
+  -customer collaboration over contracts
+
+18. How long does one iteration in the Spiral modell take?
+  -12 montths, 3 per step and there are 4
+
+19. How long does waterfall typically take to reach the maintenance phase?
+  -8 months
+
+20. which 3 questions does a process answer ?
+  -who, how .when
+
+21. Give 4 design principles for designing API's
+  -avoid long parameter lists
+  -avoid exceptional returns
+  -do one thing
+  -interface should modell component
+  -there should be a natural mapping between calls and results
+  -avoid exposing internals
+  -favour immutability
+
+22. 
+
