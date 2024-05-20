@@ -1,19 +1,11 @@
-1.give the definition of a design pattern
-solution to common problem encountered in software engineering design
+1. explain what code smells are
+indicators that the code might have some problems, more concrete: the code might be sensible to change, or has security issues
 
-2. give the main components of a design pattern
-name, intent,solution, consequences
-
-
-3. name 5 different design patterns
-Decorator,Observer, Chain of responsability,Visitor, Memento
+2.Why is duplicate code considered a code smell?
+duplicate code implies that the code should be the same, but if someone changes on and not the other, this creates an inconsistency
 
 
-4.Create and example of the application of abstractFactory design pattern
-see abstractFacrtoryPattern.py
+3.Name 6 different code smells
+duplicate code, magic numbers, long paramter lists, shotgut surgery,
+message chains, primitive obsession
 
-5.Provide an example of the singleton pattern
-in springboot with java17, @service annotator for a class, makes that class a signelton
-
-
-6.Provide an example of the Strategy design pattern
