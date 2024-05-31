@@ -9,3 +9,5 @@ duplicate code implies that the code should be the same, but if someone changes 
 duplicate code, magic numbers, long paramter lists, shotgut surgery,
 message chains, primitive obsession
 
+
+4.spot and correct the code smells in smells.py
