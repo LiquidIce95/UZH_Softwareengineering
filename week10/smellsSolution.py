@@ -8,14 +8,21 @@ class ArgumentForLongParList:
   """
   def __init__(self,a:int,b:int,c:int,d:int):
     self.a = a
+    """
+    explains why the Attribute is important to avoid forgetting its meaning
+    """
     self.b = b
     self.c = c
     self.d = d
 
 def longParameterList(O:ArgumentForLongParList):
+
+  numberOflocations : int  = 3
+
+  
   l = O.a+O.b
   r = O.c+O.d
-  return l%r + 3
+  return l%r + numberOflocations
 
 class animal(ABC):
   @abstractmethod

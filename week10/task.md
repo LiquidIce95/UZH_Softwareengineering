@@ -11,3 +11,10 @@ message chains, primitive obsession
 
 
 4.spot and correct the code smells in smells.py
+
+
+5.How can Shotgun Surgery be avoided?
+Define Interfaces foreach class which allows access to outside classes, if a class now changes it should not affect the interface
+
+
+9
