@@ -25,3 +25,8 @@ Lipskovs substitution principle: any suberclass could be substituted by any of i
 interface seggregation: clients should not use interfaces that they dont need
 dependancy aversion: depend on abstractions not implementation
 
+
+# General questions
+
+1.Why is high coupling something potentially bad ?
+it leads to shotgun surgery and makes it hard to reason reliably about our system
